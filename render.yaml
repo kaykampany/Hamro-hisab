@@ -3,7 +3,7 @@ services:
     name: tally-pro-server
     env: node
     buildCommand: cd server && npm install
-    startCommand: node server.js
+    startCommand: cd server && node start
     envVars:
       - key: NODE_VERSION
         value: 20
